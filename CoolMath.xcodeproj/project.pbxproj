@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920FE46518C7B15F00E2FDF0 /* wrongBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 920FE46318C7B15F00E2FDF0 /* wrongBig.png */; };
+		920FE46618C7B15F00E2FDF0 /* wrongSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 920FE46418C7B15F00E2FDF0 /* wrongSmall.png */; };
+		920FE46918C7B1A100E2FDF0 /* buttonNext.png in Resources */ = {isa = PBXBuildFile; fileRef = 920FE46718C7B1A100E2FDF0 /* buttonNext.png */; };
+		920FE46A18C7B1A100E2FDF0 /* buttonNextBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 920FE46818C7B1A100E2FDF0 /* buttonNextBig.png */; };
+		920FE46C18C7B1C000E2FDF0 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 920FE46B18C7B1C000E2FDF0 /* select.png */; };
+		920FE47018C90C1900E2FDF0 /* UserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 920FE46F18C90C1900E2FDF0 /* UserDefaultsHelper.m */; };
+		920FE47318D8DD2C00E2FDF0 /* CMSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 920FE47218D8DD2C00E2FDF0 /* CMSettings.m */; };
+		920FE47618D9DE2B00E2FDF0 /* CMUsedSigns.m in Sources */ = {isa = PBXBuildFile; fileRef = 920FE47518D9DE2B00E2FDF0 /* CMUsedSigns.m */; };
+		920FE47918DC044D00E2FDF0 /* SettingsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 920FE47818DC044D00E2FDF0 /* SettingsFactory.m */; };
 		924BCECD18B3B3DE0077738A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BCECC18B3B3DE0077738A /* Foundation.framework */; };
 		924BCECF18B3B3DE0077738A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BCECE18B3B3DE0077738A /* CoreGraphics.framework */; };
 		924BCED118B3B3DE0077738A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BCED018B3B3DE0077738A /* UIKit.framework */; };
@@ -14,13 +23,20 @@
 		924BCED918B3B3DE0077738A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCED818B3B3DE0077738A /* main.m */; };
 		924BCEDD18B3B3DE0077738A /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCEDC18B3B3DE0077738A /* CMAppDelegate.m */; };
 		924BCEE018B3B3DE0077738A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924BCEDE18B3B3DE0077738A /* Main.storyboard */; };
-		924BCEE318B3B3DE0077738A /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCEE218B3B3DE0077738A /* CMViewController.m */; };
 		924BCEE518B3B3DE0077738A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924BCEE418B3B3DE0077738A /* Images.xcassets */; };
 		924BCEEC18B3B3DE0077738A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BCEEB18B3B3DE0077738A /* XCTest.framework */; };
 		924BCEED18B3B3DE0077738A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BCECC18B3B3DE0077738A /* Foundation.framework */; };
 		924BCEEE18B3B3DE0077738A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924BCED018B3B3DE0077738A /* UIKit.framework */; };
 		924BCEF618B3B3DE0077738A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 924BCEF418B3B3DE0077738A /* InfoPlist.strings */; };
 		924BCEF818B3B3DE0077738A /* CoolMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCEF718B3B3DE0077738A /* CoolMathTests.m */; };
+		924BCF0418B3B7CA0077738A /* CMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCF0318B3B7CA0077738A /* CMMenuViewController.m */; };
+		924BCF0718B3B9830077738A /* CMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCF0618B3B9830077738A /* CMSettingsViewController.m */; };
+		924BCF0A18B3BC4B0077738A /* CMGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCF0918B3BC4B0077738A /* CMGameViewController.m */; };
+		924BCF0E18BA95370077738A /* MathGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCF0D18BA95370077738A /* MathGame.m */; };
+		924BCF1018BA95D40077738A /* ExerciseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCF0F18BA95D40077738A /* ExerciseFactory.m */; };
+		924BCF1418BA96910077738A /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 924BCF1318BA96910077738A /* Exercise.m */; };
+		927FA66B19B73C7D00BFA15C /* GCMathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 927FA66819B73C7D00BFA15C /* GCMathParser.m */; };
+		927FA66C19B73C7D00BFA15C /* ZExpParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 927FA66A19B73C7D00BFA15C /* ZExpParser.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920FE46318C7B15F00E2FDF0 /* wrongBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrongBig.png; sourceTree = "<group>"; };
+		920FE46418C7B15F00E2FDF0 /* wrongSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrongSmall.png; sourceTree = "<group>"; };
+		920FE46718C7B1A100E2FDF0 /* buttonNext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNext.png; sourceTree = "<group>"; };
+		920FE46818C7B1A100E2FDF0 /* buttonNextBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNextBig.png; sourceTree = "<group>"; };
+		920FE46B18C7B1C000E2FDF0 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		920FE46E18C90C1900E2FDF0 /* UserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHelper.h; sourceTree = "<group>"; };
+		920FE46F18C90C1900E2FDF0 /* UserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsHelper.m; sourceTree = "<group>"; };
+		920FE47118D8DD2C00E2FDF0 /* CMSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSettings.h; sourceTree = "<group>"; };
+		920FE47218D8DD2C00E2FDF0 /* CMSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSettings.m; sourceTree = "<group>"; };
+		920FE47418D9DE2B00E2FDF0 /* CMUsedSigns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUsedSigns.h; sourceTree = "<group>"; };
+		920FE47518D9DE2B00E2FDF0 /* CMUsedSigns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUsedSigns.m; sourceTree = "<group>"; };
+		920FE47718DC044D00E2FDF0 /* SettingsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsFactory.h; sourceTree = "<group>"; };
+		920FE47818DC044D00E2FDF0 /* SettingsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsFactory.m; sourceTree = "<group>"; };
 		924BCEC918B3B3DE0077738A /* CoolMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924BCECC18B3B3DE0077738A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		924BCECE18B3B3DE0077738A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +74,28 @@
 		924BCEDB18B3B3DE0077738A /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
 		924BCEDC18B3B3DE0077738A /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
 		924BCEDF18B3B3DE0077738A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		924BCEE118B3B3DE0077738A /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
-		924BCEE218B3B3DE0077738A /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
 		924BCEE418B3B3DE0077738A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		924BCEEA18B3B3DE0077738A /* CoolMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		924BCEEB18B3B3DE0077738A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		924BCEF318B3B3DE0077738A /* CoolMathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolMathTests-Info.plist"; sourceTree = "<group>"; };
 		924BCEF518B3B3DE0077738A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		924BCEF718B3B3DE0077738A /* CoolMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolMathTests.m; sourceTree = "<group>"; };
+		924BCF0218B3B7CA0077738A /* CMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMenuViewController.h; sourceTree = "<group>"; };
+		924BCF0318B3B7CA0077738A /* CMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMenuViewController.m; sourceTree = "<group>"; };
+		924BCF0518B3B9830077738A /* CMSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSettingsViewController.h; sourceTree = "<group>"; };
+		924BCF0618B3B9830077738A /* CMSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSettingsViewController.m; sourceTree = "<group>"; };
+		924BCF0818B3BC4B0077738A /* CMGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMGameViewController.h; sourceTree = "<group>"; };
+		924BCF0918B3BC4B0077738A /* CMGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMGameViewController.m; sourceTree = "<group>"; };
+		924BCF0C18BA94D40077738A /* MathGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathGame.h; sourceTree = "<group>"; };
+		924BCF0D18BA95370077738A /* MathGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathGame.m; sourceTree = "<group>"; };
+		924BCF0F18BA95D40077738A /* ExerciseFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseFactory.m; sourceTree = "<group>"; };
+		924BCF1118BA95F70077738A /* ExerciseFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseFactory.h; sourceTree = "<group>"; };
+		924BCF1218BA96410077738A /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
+		924BCF1318BA96910077738A /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		927FA66719B73C7D00BFA15C /* GCMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCMathParser.h; path = GCParser/GCMathParser.h; sourceTree = "<group>"; };
+		927FA66819B73C7D00BFA15C /* GCMathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCMathParser.m; path = GCParser/GCMathParser.m; sourceTree = "<group>"; };
+		927FA66919B73C7D00BFA15C /* ZExpParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZExpParser.h; path = GCParser/ZExpParser.h; sourceTree = "<group>"; };
+		927FA66A19B73C7D00BFA15C /* ZExpParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZExpParser.mm; path = GCParser/ZExpParser.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920FE46D18C90A8E00E2FDF0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				920FE46E18C90C1900E2FDF0 /* UserDefaultsHelper.h */,
+				920FE46F18C90C1900E2FDF0 /* UserDefaultsHelper.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		924BCEC018B3B3DE0077738A = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +164,11 @@
 		924BCED218B3B3DE0077738A /* CoolMath */ = {
 			isa = PBXGroup;
 			children = (
-				924BCEDB18B3B3DE0077738A /* CMAppDelegate.h */,
-				924BCEDC18B3B3DE0077738A /* CMAppDelegate.m */,
+				927FA66619B73C4C00BFA15C /* GCParser */,
+				920FE46D18C90A8E00E2FDF0 /* Data */,
+				924BCF0B18BA93A40077738A /* Model */,
+				924BCF0118B3B76B0077738A /* ViewControllers */,
 				924BCEDE18B3B3DE0077738A /* Main.storyboard */,
-				924BCEE118B3B3DE0077738A /* CMViewController.h */,
-				924BCEE218B3B3DE0077738A /* CMViewController.m */,
 				924BCEE418B3B3DE0077738A /* Images.xcassets */,
 				924BCED318B3B3DE0077738A /* Supporting Files */,
 			);
@@ -126,6 +178,13 @@
 		924BCED318B3B3DE0077738A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				920FE46B18C7B1C000E2FDF0 /* select.png */,
+				920FE46718C7B1A100E2FDF0 /* buttonNext.png */,
+				920FE46818C7B1A100E2FDF0 /* buttonNextBig.png */,
+				920FE46318C7B15F00E2FDF0 /* wrongBig.png */,
+				920FE46418C7B15F00E2FDF0 /* wrongSmall.png */,
+				924BCEDB18B3B3DE0077738A /* CMAppDelegate.h */,
+				924BCEDC18B3B3DE0077738A /* CMAppDelegate.m */,
 				924BCED418B3B3DE0077738A /* CoolMath-Info.plist */,
 				924BCED518B3B3DE0077738A /* InfoPlist.strings */,
 				924BCED818B3B3DE0077738A /* main.m */,
@@ -150,6 +209,49 @@
 				924BCEF418B3B3DE0077738A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		924BCF0118B3B76B0077738A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				924BCF0218B3B7CA0077738A /* CMMenuViewController.h */,
+				924BCF0318B3B7CA0077738A /* CMMenuViewController.m */,
+				924BCF0518B3B9830077738A /* CMSettingsViewController.h */,
+				924BCF0618B3B9830077738A /* CMSettingsViewController.m */,
+				924BCF0818B3BC4B0077738A /* CMGameViewController.h */,
+				924BCF0918B3BC4B0077738A /* CMGameViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		924BCF0B18BA93A40077738A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				924BCF1318BA96910077738A /* Exercise.m */,
+				924BCF1218BA96410077738A /* Exercise.h */,
+				924BCF1118BA95F70077738A /* ExerciseFactory.h */,
+				924BCF0F18BA95D40077738A /* ExerciseFactory.m */,
+				924BCF0D18BA95370077738A /* MathGame.m */,
+				924BCF0C18BA94D40077738A /* MathGame.h */,
+				920FE47118D8DD2C00E2FDF0 /* CMSettings.h */,
+				920FE47218D8DD2C00E2FDF0 /* CMSettings.m */,
+				920FE47418D9DE2B00E2FDF0 /* CMUsedSigns.h */,
+				920FE47518D9DE2B00E2FDF0 /* CMUsedSigns.m */,
+				920FE47718DC044D00E2FDF0 /* SettingsFactory.h */,
+				920FE47818DC044D00E2FDF0 /* SettingsFactory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		927FA66619B73C4C00BFA15C /* GCParser */ = {
+			isa = PBXGroup;
+			children = (
+				927FA66719B73C7D00BFA15C /* GCMathParser.h */,
+				927FA66819B73C7D00BFA15C /* GCMathParser.m */,
+				927FA66919B73C7D00BFA15C /* ZExpParser.h */,
+				927FA66A19B73C7D00BFA15C /* ZExpParser.mm */,
+			);
+			name = GCParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920FE46918C7B1A100E2FDF0 /* buttonNext.png in Resources */,
 				924BCEE518B3B3DE0077738A /* Images.xcassets in Resources */,
 				924BCED718B3B3DE0077738A /* InfoPlist.strings in Resources */,
+				920FE46518C7B15F00E2FDF0 /* wrongBig.png in Resources */,
 				924BCEE018B3B3DE0077738A /* Main.storyboard in Resources */,
+				920FE46C18C7B1C000E2FDF0 /* select.png in Resources */,
+				920FE46A18C7B1A100E2FDF0 /* buttonNextBig.png in Resources */,
+				920FE46618C7B15F00E2FDF0 /* wrongSmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +358,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				924BCEDD18B3B3DE0077738A /* CMAppDelegate.m in Sources */,
+				924BCF1018BA95D40077738A /* ExerciseFactory.m in Sources */,
+				920FE47318D8DD2C00E2FDF0 /* CMSettings.m in Sources */,
+				920FE47618D9DE2B00E2FDF0 /* CMUsedSigns.m in Sources */,
+				924BCF0718B3B9830077738A /* CMSettingsViewController.m in Sources */,
+				920FE47918DC044D00E2FDF0 /* SettingsFactory.m in Sources */,
+				924BCF0418B3B7CA0077738A /* CMMenuViewController.m in Sources */,
+				927FA66C19B73C7D00BFA15C /* ZExpParser.mm in Sources */,
 				924BCED918B3B3DE0077738A /* main.m in Sources */,
-				924BCEE318B3B3DE0077738A /* CMViewController.m in Sources */,
+				927FA66B19B73C7D00BFA15C /* GCMathParser.m in Sources */,
+				924BCF1418BA96910077738A /* Exercise.m in Sources */,
+				924BCF0A18B3BC4B0077738A /* CMGameViewController.m in Sources */,
+				924BCF0E18BA95370077738A /* MathGame.m in Sources */,
+				920FE47018C90C1900E2FDF0 /* UserDefaultsHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +500,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoolMath/CoolMath-Prefix.pch";
 				INFOPLIST_FILE = "CoolMath/CoolMath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,7 +515,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoolMath/CoolMath-Prefix.pch";
 				INFOPLIST_FILE = "CoolMath/CoolMath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +583,7 @@
 				924BCEFD18B3B3DE0077738A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		924BCEFE18B3B3DE0077738A /* Build configuration list for PBXNativeTarget "CoolMathTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +592,7 @@
 				924BCF0018B3B3DE0077738A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

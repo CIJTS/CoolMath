@@ -1,5 +1,5 @@
 //
-//  CMViewController.h
+//  CMMenuViewController.h
 //  CoolMath
 //
 //  Created by Juha Sinkkonen on 18/02/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CMViewController : UIViewController
+@interface CMMenuViewController : UIViewController
 
 @end
